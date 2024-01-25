@@ -1,0 +1,25 @@
+logger:
+  levels:
+    fr.gbredz1: DEBUG
+
+teleinfo:
+  teleinfo0:
+    portName: "/dev/teleinfo"
+    enabled: false
+
+  teleinfo1:
+    faker:
+      adco: 1111
+      sendRate: 500ms
+
+  teleinfo2:
+    faker:
+      adco: 2222
+      initialDelay: 200ms
+      sendRate: 500ms
+
+  teleinfo3:
+    faker:
+      adco: 3333
+      initialDelay: 500ms
+      sendRate: 500ms
